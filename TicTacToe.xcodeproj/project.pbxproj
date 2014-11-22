@@ -13,6 +13,7 @@
 		436F27AF1A04D078007EE2FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 436F27AE1A04D078007EE2FD /* Images.xcassets */; };
 		436F27B21A04D078007EE2FD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 436F27B01A04D078007EE2FD /* LaunchScreen.xib */; };
 		436F27BE1A04D078007EE2FD /* TicTacToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436F27BD1A04D078007EE2FD /* TicTacToeTests.swift */; };
+		43A8022D1A208AD500FDD0FB /* BlockBean.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A8022C1A208AD500FDD0FB /* BlockBean.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		436F27B71A04D078007EE2FD /* TicTacToeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTacToeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		436F27BC1A04D078007EE2FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		436F27BD1A04D078007EE2FD /* TicTacToeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeTests.swift; sourceTree = "<group>"; };
+		43A8022C1A208AD500FDD0FB /* BlockBean.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockBean.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				436F27AE1A04D078007EE2FD /* Images.xcassets */,
 				436F27B01A04D078007EE2FD /* LaunchScreen.xib */,
 				436F27A51A04D078007EE2FD /* Supporting Files */,
+				43A8022C1A208AD500FDD0FB /* BlockBean.swift */,
 			);
 			path = TicTacToe;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 			files = (
 				436F27AA1A04D078007EE2FD /* ViewController.swift in Sources */,
 				436F27A81A04D078007EE2FD /* AppDelegate.swift in Sources */,
+				43A8022D1A208AD500FDD0FB /* BlockBean.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +409,7 @@
 				436F27C31A04D078007EE2FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		436F27C41A04D078007EE2FD /* Build configuration list for PBXNativeTarget "TicTacToeTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				436F27C61A04D078007EE2FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
